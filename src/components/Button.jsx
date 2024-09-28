@@ -1,5 +1,9 @@
-export default function Button({ index, handleClick, children }) {
+export default function Button({ children, check, index, handleClick }) {
   return (
-    <button onClick={() => { handleClick(index) }}>{children}</button>
+    <button onClick={() => {
+      check ?
+        handleClick(check) :
+        handleClick(index)
+    }}>{children}</button>
   )
 }
