@@ -1,0 +1,34 @@
+**React Quiz App Assignment**
+**Due Date:** Tomorrow by 2:00 PM
+**Objective**: Build a simple multiple-choice quiz application using React.
+This project will help you learn React fundamentals and prepare you for future tasks in building dApps.
+
+Each question should be an object containing:
+- The question text
+- An array of options
+- The correct answer
+
+Create an array of several question objects (can be hard-coded, but feel free to use an API if you want)
+Use React state to track user's answers as they progress through the quiz
+Display the final result once the quiz is completed
+
+User Interface:
+- Present one question at a time
+- Allow users to select an answer for each question
+- Provide a way to move to the next question and return to a previous question
+- Show the final score at the end of the quiz
+
+
+Learning Objectives:
+- Handle user interactions and update the UI accordingly
+- Break down the app into smaller components for better organization
+- Use React Hooks and custom hooks where necessary
+
+Tips
+Refer to React documentation and tutorials as you work on this project
+
+
+Be prepared to walk us through your code and interface in class.
+Good luck
+
+
