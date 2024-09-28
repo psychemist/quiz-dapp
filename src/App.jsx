@@ -1,10 +1,12 @@
-import { useState } from 'react'
 import './App.css'
+import ErrorBoundary from './components/errors/ErrorBoundary'
 import QuizContainer from './components/QuizContainer'
 
 function App() {
     return (
-        <QuizContainer className="container" />
+        <ErrorBoundary>
+            <QuizContainer className="container" />
+        </ErrorBoundary>
     )
 }
 
